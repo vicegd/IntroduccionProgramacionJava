@@ -2,7 +2,7 @@ package introduccionProgramacionJava.sol;
 
 import java.util.Scanner;
 
-public class RetoFactorialII { 
+public class RetoFactorial2 { 
 	static int factorial(int n) {
 		if (n==0)
 			return 1;

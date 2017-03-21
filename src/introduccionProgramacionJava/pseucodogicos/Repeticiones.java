@@ -1,6 +1,6 @@
 package introduccionProgramacionJava.pseucodogicos;
 
-public class repeticiones {
+public class Repeticiones {
 	public static void main(String[] args) {
 		boolean condicion = true;
 		
