@@ -7,9 +7,9 @@ public class RetoOperadoresRelacionales {
 		Scanner leer = new Scanner(System.in); 
 		
 		System.out.printf("Introduzca dos números\n"); 
-		int a = leer.nextInt(); 
-		int b = leer.nextInt();
-		System.out.printf("Los números que has introducido son %d y %d\n", a, b); 
+		float a = leer.nextFloat(); 
+		float b = leer.nextFloat();
+		System.out.printf("Los números que has introducido son %f y %f\n", a, b); 
 
 	    System.out.printf("a == b = %b\n", a == b);
 	    System.out.printf("a != b = %b\n", a != b);

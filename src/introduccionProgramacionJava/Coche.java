@@ -10,10 +10,8 @@ public class Coche {
 	}
 	
 	public static void main(String[] args) {
-		float e = 100f;
-		float t = 2.5f;
-		float v = velocidad(e, t);
-		System.out.printf("Recorriendo %f kilómetros en %f horas, la velocidad es %f km/h", e, t, v);
+		float v = velocidad(100f, 2.5f);
+		System.out.printf("Recorriendo %f kilómetros en %f horas, la velocidad es %f km/h", 100f, 2.5f, v);
 	}
 }
 

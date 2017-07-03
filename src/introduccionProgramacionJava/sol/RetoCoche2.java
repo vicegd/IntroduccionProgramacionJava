@@ -13,7 +13,7 @@ public class RetoCoche2 {
 		float e = 100f;
 		float t = 2.5f;
 		float v = velocidad(e, t);
-		System.out.printf("Recorriendo %f kilómetros en %f horas, la velocidad es %f km/h\n", e, t, v);
+		System.out.printf("Recorriendo %f kilómetros en %f horas, la velocidad es %f km/h\n", 100f, 2.5f, v);
 		
 		System.out.printf("Recorriendo %f kilómetros en %f horas, la velocidad es %f km/h\n", 1f, 0.02f, velocidad(1f, 0.02f));
 		
